@@ -1,0 +1,41 @@
+.userinfodetails{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #8B4513, #D2691E);
+    padding: 10px;
+    border: 5px solid #D2691E;
+    box-shadow: 5px 5px 10px rgba(79, 72, 72, 0.5);
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profileimg{
+    display: flexbox;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profiledetails{
+    font-weight: bold;
+    font-size: 15px;
+    color: burlywood;
+
+}
+
+.profilerole{
+    font-weight: bolder;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+
+.profemail{
+    text-decoration: underline;
+}

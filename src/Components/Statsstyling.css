@@ -1,0 +1,42 @@
+.statsdetails, .material-icons {
+    font-size: 30px;
+    color: #9135b3;
+    margin-right: 8px;
+}
+
+.statsdetails {
+    font-size: 25px;
+    font-style: italic;
+    color: #9135b3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
+    padding: 20px;
+    border: 5px solid lightcoral;
+    box-shadow: 5px 5px 10px rgba(79, 72, 72, 0.5);
+    overflow: hidden;
+    max-width: 480px;
+    height: auto;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.stats-text {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.stats-chart {
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-icons {
+    margin-right: 8px;
+}

@@ -1,0 +1,38 @@
+
+.warning {
+    color: red;            
+    font-weight: bold;     
+    font-style: italic;    
+    font-size: 20px;      
+    margin-bottom: 10px;   
+}
+
+.msgdetails {
+    display: flex;
+    flex-direction: row;
+    color: white;                
+    font-size: 18px;             
+    background-color: lightseagreen;
+    border: 5px solid rgb(23, 148, 142);
+    box-shadow: 5px 5px 10px rgba(79, 72, 72, 0.5);
+    padding: 20px;               
+    border-radius: 10px;         
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);                     
+    display: inline-block;
+    margin-top: 0px;
+    gap: 20px;
+    width: 450px;
+}
+
+.msgdetails p {
+    margin-bottom: 15px; 
+}
+
+.container{
+
+    width: 400px;
+    margin-bottom: 5000px;
+    padding-top: 5px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}

@@ -1,0 +1,54 @@
+.mainpage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff8f0;
+    height: 100vh;
+    background-color: red;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color:white;
+}
+
+h1 .highlight {
+    color: yellow;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 15px 0;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.roundimage {
+    height: 500px;
+    width: 500px;
+}
