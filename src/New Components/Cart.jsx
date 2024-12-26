@@ -7,6 +7,7 @@ function AddToCart({ cart = [], updateQuantity, removeFromCart }) {
       <h1>Your Cart</h1>
       {cart.length === 0 ? (
         <p>Your cart is currently empty. Start shopping now!</p>
+        <p></p>
       ) : (
         <div className="cart-items">
           {cart.map((item, index) => (

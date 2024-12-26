@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 function ProductList() {
   return (
     <div>
+      <p></p>
       <h1>Product List</h1>
       <ul>
         <li><Link to="/products/headphones">Wireless Headphones</Link></li>

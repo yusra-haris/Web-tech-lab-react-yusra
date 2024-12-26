@@ -50,6 +50,7 @@ function ProductDetails({ addToCart }) {
             </div>
             
             <p className="product-price">{product.price}</p>
+            <p></p>
             <div className="quantity-container">
               <button className="quantity-button" onClick={decrement}>-</button>
               <span>Quantity: {count}</span>

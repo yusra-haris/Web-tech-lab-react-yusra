@@ -42,7 +42,7 @@ function App() {
   const removeFromCart = (item) => {
     setCart((prevCart) => prevCart.filter((cartItem) => cartItem.name !== item.name));
   };
-
+<p></p>
   return (
     <div>
       <Router>
