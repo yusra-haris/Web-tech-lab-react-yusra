@@ -5,7 +5,6 @@ function Home() {
     <p>Discover the best deals on top-quality products, handpicked just for you! </p>
     <p>Enjoy a seamless shopping experience with fast delivery, secure payments, and exclusive offers.</p>
     <p> Shop now and elevate your lifestyle!</p>
-    <p></p>
     </div>
     );
     }
